@@ -1,0 +1,31 @@
+.fa-whatsapp {
+  width: 50px;
+}
+
+.navbar-collapse {
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-collapse li::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  display: block;
+  background-color: #be1414;
+  margin-bottom: 20px;
+}
+
+.navbar-collapse li:hover::before {
+  width: 100%;
+  transition: all;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 10%;
+}
+
+.container-fluid {
+  justify-content: space-between;
+}
