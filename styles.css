@@ -1,5 +1,5 @@
-.fa-whatsapp {
-  width: 50px;
+.navbar {
+  width: 100%;
 }
 
 .navbar-collapse {
@@ -28,4 +28,34 @@
 
 .container-fluid {
   justify-content: space-between;
+}
+
+.img-whatsapp {
+  cursor: pointer;
+  width: 35px;
+}
+
+.container {
+  display: block;
+
+  background-color: #be1414;
+}
+
+.container-img {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  margin-top: 114px;
+  object-fit: cover;
+}
+
+.container-text {
+  position: relative;
+  text-align: start;
+  max-width: 250px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  left: 70%;
+  top: 160px;
 }
